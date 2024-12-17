@@ -25,7 +25,7 @@ const News = () => {
   return (
     <div className="container mt-4">
       <h1 className="mb-4">Latest News</h1>
-      <div className="row">
+{/*       <div className="row">
         {articles.slice(0, 9).map((article, index) => (
           <div className="col-md-4 mb-4" key={index}>
             <div className="card h-100 p-2">
@@ -77,7 +77,7 @@ const News = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
