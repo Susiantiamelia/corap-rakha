@@ -10,7 +10,7 @@ export const fetchNews = createAsyncThunk(
         {
           params: {
             q: "Peace",
-            "api-key": import.meta.env.VITE_NYT_API_KEY,
+            "api-key":'GtxL24nG6cN9ZqM02fdBMM27eRix79XB',
           },
         }
       );
