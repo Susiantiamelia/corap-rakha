@@ -1,0 +1,21 @@
+/* Navbar */
+.navbar-nav a {
+  font-size: 18px;
+}
+
+/* Home */
+body {
+  background: linear-gradient(120deg, #f0f8ff, #e6f7ff);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Compare */
+.list-group-item {
+  transition: background-color 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
